@@ -1,0 +1,10 @@
+{
+	"LogLevel": "debug",
+	"LogPath": "",
+	"WSAddr": "127.0.0.1:40000",
+	"MaxConnNum": 20000,
+	"DBServerPath" : "DBServer",
+	"RoomServerPath" : "RoomServer",
+	"RpcxPort" : ":40001",
+	"EtcdAddr" : "127.0.0.1:2379"
+}

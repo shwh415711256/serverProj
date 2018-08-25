@@ -1,0 +1,19 @@
+{
+  "GameInfo" :
+  [
+    {
+      "GameId" : "5",
+      "RoomInfo" :
+      [
+        {
+          "RoomType" : 1,
+          "RoomNeedPlayerNum" : 2,
+          "RoomWaitToCloseTime" : 5,
+          "RoomPlayGameTime": 60,
+          "NeedPlayerReady": 1,
+          "RoomMaxNum": 2
+        }
+      ]
+    }
+  ]
+}

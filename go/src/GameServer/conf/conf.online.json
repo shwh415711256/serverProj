@@ -1,0 +1,8 @@
+{
+  "ListenPort":":40000",
+  "SeelogXmlPath":"conf/seelog.xml",
+  "EtcdAddr" : "127.0.0.1:2379",
+
+  "DBServerPath":"DBServer",
+  "RoomServerPath":"RoomServer"
+}

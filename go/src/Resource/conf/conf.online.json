@@ -1,0 +1,5 @@
+{
+  "FileListenPort":":60000",
+  "ResourcePath":"D:\\Resources",
+  "SeelogXmlPath":"conf/seelog.xml"
+}

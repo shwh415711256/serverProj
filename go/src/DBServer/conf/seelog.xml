@@ -1,0 +1,9 @@
+<seelog type="asynctimer" asyncinterval="250000000" minlevel="debug" maxlevel="error">
+    <outputs formatid="main">
+        <console/>
+        <rollingfile type="date" filename="/Users/shwh/quxun/info.log" datepattern="02.01.2006" fullname="true"  maxrolls="30" />
+    </outputs>
+    <formats>
+        <format id="main" format="%Date/%Time [%File-%FuncShort-%Line] [%LEV] %Msg%n"/>
+    </formats>
+</seelog>

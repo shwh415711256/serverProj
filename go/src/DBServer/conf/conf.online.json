@@ -1,0 +1,17 @@
+{
+  "ListenPort":":50000",
+  "SeelogXmlPath":"conf/seelog.xml",
+  "EtcdAddr" : "127.0.0.1:2379",
+
+  "DBAddr":"127.0.0.1:3306",
+  "DBUserName":"quxun",
+  "DBPassword":"quxun",
+  "DBName":"quxun",
+  "MaxOpenConns" : 200,
+  "MaxIdleConns" : 100,
+  "RedisMaxIdleNum" : 200,
+  "RedisMaxActiveNum" : 1000,
+  "RedisIdleTimeOut" : 240,
+  "RedisAddr" : "127.0.0.1:6379",
+  "RedisPass" : "zq"
+}

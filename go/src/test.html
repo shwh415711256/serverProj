@@ -1,0 +1,23 @@
+<ul id="content"></ul>
+<script type="text/javascript">
+    var oUl = document.getElementById("content");
+    var ws = new WebSocket('wss://cc.h5youxi.fun/wss');
+
+    ws.onopen = function(evt) {
+        console.log("Socket opened.");
+        // 发送 Hello 消息
+        ws.send(JSON.stringify({LoginReq: {
+                GameId: '5',
+                OpenId: 'oASaK5Zwqv-WOBHC6Y40DTzweI9g',
+            }}))
+    };
+
+    ws.onerror = function(evt) {
+    };
+
+    ws.onmessage = function(evt) {
+        var info = JSON.parse(evt.data);
+        alert(evt.data.Result)
+        oUl.innerHTML += "<li>消息接收:" + info + "</li>";
+    };
+</script>
